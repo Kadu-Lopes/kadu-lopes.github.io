@@ -1,0 +1,65 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+ /* ===== HEADER BASE ===== */
+
+header {
+    background-color: var(--cor-secundaria);
+}
+
+ header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#sobreMim img {
+    border-radius: 50%;
+}
+/* botão aparece no mobile */
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+}
+
+/* linhas do hamburguer */
+.menu-toggle span {
+  width: 28px;
+  height: 3px;
+  background: #333;
+}
+
+/* menu escondido inicialmente */
+.menu {
+  display: none;
+  flex-direction: column;
+  background: white;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+/* menu aberto */
+.menu.ativo {
+  display: flex;
+}
+
+footer ul {
+    list-style: none;
+}
+
+/* section tecnologias */
+div.img-html , div.img-css , div.img-js , div.img-git , div.img-github {
+    /* background-color: var(--bg-secondary); */
+    place-items: center;
+    height: 4rem;
+
+
+/* section tecnologias */

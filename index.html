@@ -9,11 +9,19 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu">
                 <li><a href="#sobreMim">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#tecnologias">Tecnologias</a></li>
@@ -22,17 +30,49 @@
         </nav>        
     </header>
     <main>
-        <sectioon id="sobreMim">
+        <section id="sobreMim">
+            <div class="container-sobreMim">
+                <h1>Olá, eu sou o Kadu</h1>
+                <div id="continer-foto">
+                    <img src="assets/imagens/foto-linkedinCortada.png" alt="Foto de Kadu">
+                </div>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eaque, debitis ducimus nihil labore, nam expedita minus quaerat quis corrupti ullam eligendi voluptate. Incidunt voluptates modi voluptatem omnis voluptatum laudantium!
-            </p>
+                <p>
+                    Desenvolvedort Front-end focado em interfaces modernas e performaticas.
+                </p>
+    
+            </div> <!-- fim da section sobre mim --> 
+            
 
-        </sectioon>
+        </section>
         <section id="projetos">
             <!-- em fase de desenvolvimento -->
-        </section>
+        </section>   
         <section id="tecnologias">
+
+            <h2>Tecnologias</h2>
+            <div id="container-tecnologias">
+    
+                <div class="img-html">
+                    <img src="assets/ícones/html5-original.svg" />
+                </div>
+    
+                <div class="img-css">
+                    <img src="assets/ícones/css3-original.svg" />
+                </div>
+    
+                <div class="img-js">
+                    <img src="assets/ícones/javascript-original.svg" />
+                </div>
+    
+                <div class="img-git">
+                    <img src="assets/ícones/git-original.svg" />
+                </div>
+    
+                <div class="img-github">
+                    <img src="assets/ícones/github-original-wordmark.svg"/>
+                </div>
+            </div>
 
         </section>
     </main>
@@ -43,5 +83,6 @@
             <li>Linkedin</li>
         </ul>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 </html>
