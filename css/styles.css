@@ -111,7 +111,7 @@ div#continer-foto img {
 /* container do efeito */
 .slider {
   overflow: hidden;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
   position: relative;
 }
@@ -190,4 +190,66 @@ section#tecnologias h2 {
 
 footer ul {
   list-style: none;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid #333;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* lista */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* botão base */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 55px;
+  height: 55px;
+
+  border-radius: 12px;
+  background: #1e1e1e;
+  color: white;
+  font-size: 22px;
+
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* hover geral */
+.btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* cores específicas */
+.email:hover {
+  background: #ea4335;
+}
+
+.github:hover {
+  background: #333;
+}
+
+.linkedin:hover {
+  background: #0077b5;
+}
+
+/* clique */
+.btn:active {
+  transform: scale(0.9);
 }
