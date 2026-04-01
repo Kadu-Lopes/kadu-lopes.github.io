@@ -3,7 +3,7 @@ const track = document.querySelector('.track');
 track.innerHTML += track.innerHTML;
 
 let position = 0;
-let speed = 0.8; // pixels por frame
+let speed = 0.8;
 
 function animate() {
   const trackWidth = track.scrollWidth / 2;
