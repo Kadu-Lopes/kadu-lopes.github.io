@@ -53,7 +53,7 @@ Em breve...
 
 * 📧 Email: [kaduplopes@gmail.com](mailto:kaduplopes@gmail.com)
 * 💼 LinkedIn: https://www.linkedin.com/in/kadu-lopes-72b5742a1/
-* 🐙 GitHub: https://github.com/seu-usuario
+* 🐙 GitHub: https://github.com/kadu-lopes
 
 ## 📈 Próximos passos
 
